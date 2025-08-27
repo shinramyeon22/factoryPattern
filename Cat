@@ -1,0 +1,19 @@
+package factoryPattern;
+
+public class Cat implements Pet{
+    private int lives = 9;
+
+    @Override
+    public String makeSound(){
+        return "Meow!";
+
+    }
+    @Override
+    public String play(){
+        return "Cat is chasing  the laser!";
+
+    }
+    public int getLives() {
+        return lives;
+    }
+}
